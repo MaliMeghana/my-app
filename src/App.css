@@ -1,18 +1,6 @@
-/* 
-.beautify{
-   font-size: 2rem; 
-   background: royalblue;
-   color: white;
-   font-family: cursive;
-   height: 100vh;
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   margin: 0;
-} */
+
 .btn{
     margin-left: 3%;
-    font-family: cursive;
 }
 .mySlides{
     height:100%;
@@ -21,4 +9,13 @@
 .icon{
     height:100%;
     width:100%;
+}
+.dropdown:hover>.dropdown-menu{
+    display: block;
+}
+.dropdown-item{
+   justify-content: center;
+}
+.btn.btn-default:hover{
+    color: blue;
 }
